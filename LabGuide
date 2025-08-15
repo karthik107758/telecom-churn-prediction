@@ -1,0 +1,61 @@
+# 🧪 Lab Guide: Telco Churn Prediction in Microsoft Fabric
+
+## 🔹 Objective
+Build an end-to-end churn prediction pipeline using Microsoft Fabric and Power BI.
+
+---
+
+## 🟢 Phase 1: Setup
+
+1. Create Fabric workspace: `Telecom_Churn`
+2. Create Lakehouse: `TelcoLakehouse`
+3. Upload CSV to Lakehouse Files
+4. Use Table Import Wizard to create `TelcoChurn` table
+
+---
+
+## 🧠 Phase 2: ML Modeling
+
+1. Open Notebook and attach to Lakehouse
+2. Load data using Spark → Pandas
+3. Clean and encode features
+4. Train Random Forest model
+5. Evaluate using classification report
+6. Save predictions to `ChurnPredictions` table
+
+---
+
+## 📊 Phase 3: Reporting
+
+1. Open Power BI → Create Report
+2. Connect to Lakehouse → `ChurnPredictions`
+3. Build visuals:
+   - Churn rate by contract
+   - Monthly charges vs churn
+   - Tenure vs churn
+4. Add slicers and filters
+5. Publish to workspace
+
+---
+
+## 📁 Phase 4: GitHub Documentation
+
+1. Create repo: `telecom-churn-prediction`
+2. Add folders: `data`, `notebooks`, `docs`, `screenshots`
+3. Include:
+   - `README.md`
+   - `lab_guide.md`
+   - Architecture diagram
+   - Power BI screenshots
+
+---
+
+## ✅ Completion Checklist
+
+- [x] Fabric workspace created
+- [x] Dataset ingested
+- [x] ML model trained
+- [x] Predictions saved
+- [x] Power BI dashboard built
+- [x] GitHub repo published
+
